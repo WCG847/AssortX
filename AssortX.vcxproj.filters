@@ -10,4 +10,10 @@
     <ClCompile Include="Modules\Private\Implementations\Memory.cpp" />
     <ClCompile Include="Modules\Private\Implementations\Startup.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AssortX.rc" />
+  </ItemGroup>
 </Project>
