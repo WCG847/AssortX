@@ -1,0 +1,30 @@
+BasedOnStyle: LLVM
+TabWidth:        4
+UseTab:          Always
+Standard:        Latest
+PointerAlignment: Right
+ReferenceAlignment: Pointer
+DerivePointerAlignment: false
+IntegerLiteralSeparator:
+  Binary:          4
+  BinaryMinDigits: 0
+  Decimal:         3
+  DecimalMinDigits: 0
+  Hex:             4
+  HexMinDigits:    4
+
+NamespaceIndentation: All
+IndentAccessModifiers: false
+IndentCaseBlocks: true
+IndentCaseLabels: true
+IndentExternBlock: AfterExternBlock
+IndentGotoLabels: true
+IndentPPDirectives: None
+IndentRequiresClause: true
+IndentWidth:     4
+IndentWrappedFunctionNames: true
+InsertBraces:    true
+InsertNewlineAtEOF: true
+InsertTrailingCommas: None
+BreakBeforeBraces: Attach
+FixNamespaceComments: false
