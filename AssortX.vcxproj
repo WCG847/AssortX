@@ -71,6 +71,7 @@
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
       <FloatingPointModel>Fast</FloatingPointModel>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -106,6 +107,7 @@
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
       <FloatingPointModel>Fast</FloatingPointModel>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -125,11 +127,15 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Modules\Private\Implementations\File.cpp" />
+    <ClCompile Include="Modules\Private\Implementations\Heap.cpp" />
     <ClCompile Include="Modules\Private\Implementations\Memory.cpp" />
     <ClCompile Include="Modules\Private\Implementations\Startup.cpp" />
     <ClCompile Include="Modules\Private\Implementations\String.cpp" />
+    <ClCompile Include="Modules\Public\Interfaces\Access.ixx" />
     <ClCompile Include="Modules\Public\Interfaces\AssortX.ixx" />
     <ClCompile Include="Modules\Public\Interfaces\Build.ixx" />
+    <ClCompile Include="Modules\Public\Interfaces\IO.ixx" />
     <ClCompile Include="Modules\Public\Interfaces\Memory.ixx" />
     <ClCompile Include="Modules\Public\Interfaces\String.ixx" />
     <ClCompile Include="Modules\Public\Interfaces\Types.ixx" />

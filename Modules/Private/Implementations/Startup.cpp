@@ -14,6 +14,7 @@ extern "C" long long AssortX_Startup() {
 		AssortX::Build::Information.Version.Minor);
 	int nArgs;
 	const char16_t **argv = CommandLineToArgvW(GetCommandLineW(), &nArgs);
+	
 	long long Result = Startup(nArgs, argv);
 	LocalFree(argv);
 	return Result;

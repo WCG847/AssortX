@@ -15,7 +15,7 @@ namespace AssortX::String {
 		Info.Size = Length * sizeof(char32_t);
 		Memory::MemoryUtils::Copy(
 			Info.Size, reinterpret_cast<unsigned char *>(Info.Data),
-			reinterpret_cast<const unsigned char *const>(Data));
+			reinterpret_cast<unsigned char *>(const_cast<char32_t *>(Data)));
 	}
 	Types::SIZE String::GetLength() const { return Info.Length; }
 	const char32_t &String::operator*() const { return *Info.Data; }

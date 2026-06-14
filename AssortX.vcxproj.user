@@ -3,4 +3,13 @@
   <PropertyGroup>
     <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>"C:\games\PSX\WWF SmackDown! 2 - Know Your Role (USA)\WWF SmackDown! 2 - Know Your Role (USA).bin"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArgumentsHistory>"C:\games\PSX\WWF SmackDown! 2 - Know Your Role (USA)\WWF SmackDown! 2 - Know Your Role (USA).bin"|</LocalDebuggerCommandArgumentsHistory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>"C:\games\PSX\WWF SmackDown! 2 - Know Your Role (USA)\WWF SmackDown! 2 - Know Your Role (USA).bin"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
