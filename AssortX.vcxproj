@@ -83,7 +83,7 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
     <Lib>
-      <AdditionalDependencies>ntdll.lib;ucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>ntdll.lib;kernel32.lib;ucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <Lib>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
@@ -119,7 +119,7 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
     <Lib>
-      <AdditionalDependencies>ntdll.lib;ucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>ntdll.lib;kernel32.lib;ucrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <Lib>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
